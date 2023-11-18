@@ -1,3 +1,4 @@
 cd "$(dirname "$0")"
 sh do down &
-sh do up
+sh do up &
+killall
