@@ -1,0 +1,32 @@
+baseURL: https://zepic.es
+Paginate: 24
+buildFuture: false
+theme: [sansoul]
+params:
+  git_url: https://github.com/seacomoseo/zepic.es
+  netlify_name: zepicture
+  netlify_id: 2c330a54-c90b-435a-b99d-818a880889a7
+  drive_link: https://drive.google.com/file/d/1hbo7KQLgBYc69vsdcCxjcsKzjsT1oPrr
+  drive_mails: zepic.photo@gmail.com
+defaultContentLanguage: es
+disableLanguages: [en]
+languages:
+  es:
+    paginatePath: pagina
+    permalinks:
+      page:
+        pages: :slug
+        blog: :slug
+        events: evento/:year/:month/:day/:slug
+        products: producto/:slug
+        categories: categoria/:slug
+        tags: etiqueta/:slug
+        authors: autor/:slug
+      section:
+        pages: paginas
+        blog: blog
+        events: eventos
+        products: productos
+        categories: categorias
+        tags: etiquetas
+        authors: autores
