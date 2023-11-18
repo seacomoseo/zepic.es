@@ -1,3 +1,3 @@
-cd "$(dirname "$(readlink -f "$0")")"
+cd "$(dirname "$0")"
 sh do down &
 sh do up
