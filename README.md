@@ -11,7 +11,6 @@
 
 ### Local
 
-- Star Git LFS: `git lfs install`
 - If new project (not fork):
   - Copy [zepic.es project files](https://github.com/zepicture/zepic.es)
   - `git submodule add https://github.com/lorensansol/sansoul.git themes/sansoul`
