@@ -6,6 +6,7 @@ params:
   git_url: https://github.com/seacomoseo/zepic.es
   netlify_name: zepicture
   netlify_id: 2c330a54-c90b-435a-b99d-818a880889a7
+  hook: NjU0ZTJjNzU5NmMwZDcwMjMwZmY0MjEy
   drive_link: https://drive.google.com/file/d/1hbo7KQLgBYc69vsdcCxjcsKzjsT1oPrr
   drive_mails: zepic.photo@gmail.com
 defaultContentLanguage: es
